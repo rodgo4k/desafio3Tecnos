@@ -2,7 +2,9 @@ import React from 'react';
 
 import LogoImg from '../../assets/logomarca.jpg';
 
-import { Container, TopBar, Left, Logo, Title, Tab } from './styles';
+import { Container,
+         TopBar, Left, Logo, Text, Tab,
+         Main } from './styles';
 
 const Home: React.FC = () => {
   return (
@@ -10,7 +12,7 @@ const Home: React.FC = () => {
           <TopBar>
               <Left>
                 <Logo src={LogoImg} alt="Logomarca" />
-                <Title>PREFEITURA MUNICIPAL</Title>
+                <Text>PREFEITURA MUNICIPAL</Text>
               </Left>
               <Left>
                   <Tab>Home</Tab>
@@ -19,6 +21,11 @@ const Home: React.FC = () => {
                   <Tab>Contato</Tab>
               </Left>
           </TopBar>
+
+          <Main>
+            <Text>SERVIÇOS</Text>
+            <Text>Nós oferecemos serviços personalizados para cada um!</Text>
+          </Main>
       </Container>
   );
 }

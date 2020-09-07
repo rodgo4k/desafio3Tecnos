@@ -1,8 +1,6 @@
 import styled from 'styled-components';
 
-export const Container = styled.div`
-  
-`;
+export const Container = styled.div``;
 
 export const TopBar = styled.div`
     background: white;
@@ -25,7 +23,7 @@ export const Logo = styled.img`
     cursor: pointer;
 `;
 
-export const Title = styled.div`
+export const Text = styled.div`
     margin: 15px;
     font-size: 2rem;
     font-weight: bold;
@@ -39,5 +37,20 @@ export const Tab = styled.div`
     &:hover {
         color: var(--red);
         cursor: pointer;
+    }
+`;
+
+export const Main = styled.div`
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+
+    > :nth-child(1) {
+        font-size:50px;
+    }
+
+    > :nth-child(2) {
+        font-size: 1.7rem;
+        font-weight: normal;
     }
 `;
