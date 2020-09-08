@@ -1,6 +1,11 @@
 import styled from 'styled-components';
 
-export const Container = styled.div``;
+export const Container = styled.div`
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+`;
 
 export const TopBar = styled.div`
     background: white;
@@ -44,12 +49,16 @@ export const Main = styled.div`
     width: 100%;
     align-items: center;
     justify-content: center;
+    text-align: center;
 
     > :nth-child(1) {
-        font-size:50px;
+        font-size:5.5rem;
+        margin-bottom: 0;
+        opacity: 0.9;
     }
 
     > :nth-child(2) {
+        margin-top: 0;
         font-size: 1.7rem;
         font-weight: normal;
     }

@@ -2,9 +2,11 @@ import React from 'react';
 
 import LogoImg from '../../assets/logomarca.jpg';
 
+import ServicesBar from '../../components/ServicesBar';
+
 import { Container,
          TopBar, Left, Logo, Text, Tab,
-         Main } from './styles';
+         Main,  } from './styles';
 
 const Home: React.FC = () => {
   return (
@@ -25,6 +27,8 @@ const Home: React.FC = () => {
           <Main>
             <Text>SERVIÇOS</Text>
             <Text>Nós oferecemos serviços personalizados para cada um!</Text>
+
+            <ServicesBar />
           </Main>
       </Container>
   );
