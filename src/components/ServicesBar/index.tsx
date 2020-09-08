@@ -16,7 +16,7 @@ const ServicesBar: React.FC = () => {
                 <Img src={ViewImg} />
             </ImgBox>
             <Title>CIDADÃO</Title>
-            <Underline />
+            <Underline id="underline1"/>
             <Description>
                 Aqui você acompanha os dados da lei complementar 131(Transparência Pública) 
                 e aproveitar as facilidades dos serviços destinados aos cidadãos.
@@ -28,7 +28,7 @@ const ServicesBar: React.FC = () => {
                 <Img src={PortfolioImg} />
             </ImgBox>
             <Title>CONTRIBUINTE</Title>
-            <Underline />
+            <Underline id="underline2"/>
             <Description>
                 Sempre na palma da mão você visualiza e acompanha débitos de IPTU, Inscrições de 
                 Empresas e autônomos, Emissão de certidões negativas e muito mais.
@@ -40,7 +40,7 @@ const ServicesBar: React.FC = () => {
                 <Img src={ShopImg} />
             </ImgBox>
             <Title>FORNECEDOR</Title>
-            <Underline />
+            <Underline id="underline3"/>
             <Description>
                 Pensando em tornar sua vida mais fácil, oferecemos serviços para você acompanhar 
                 seus pagamentos e extratos.
@@ -52,7 +52,7 @@ const ServicesBar: React.FC = () => {
                 <Img src={UserImg} />
             </ImgBox>
             <Title>SERVIDOR</Title>
-            <Underline />
+            <Underline id="underline4"/>
             <Description>
                 Temos serviços prontos para te oferecer e agilizar o relacionamento com o departamento 
                 pessoal de onde estiver.
@@ -64,7 +64,7 @@ const ServicesBar: React.FC = () => {
                 <Img src={DealImg} />
             </ImgBox>
             <Title>PARCEIRO</Title>
-            <Underline />
+            <Underline id="underline5"/>
             <Description>
                 A chave do sucesso é a colaboração, juntos nós fazemos acontecer.
             </Description>

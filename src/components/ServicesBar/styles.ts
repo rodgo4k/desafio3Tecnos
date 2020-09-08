@@ -1,6 +1,7 @@
 import styled from 'styled-components';
 
 export const Container = styled.div`
+    margin-top: 5rem;
     padding-left: 5rem;
     padding-right: 5rem;
     display: flex;
@@ -21,9 +22,61 @@ export const Service = styled.div`
     margin-left: 2rem;
     margin-right: 2rem;
 
-    &:hover {
+    > #underline1 {
+        left: 13.5rem;
+        background: var(--darkred);
+    } 
+
+    > #underline2 {
+        left: 38rem;
+        background: var(--green);
+    } 
+
+    > #underline3 {
+        left: 62rem;
+        background: var(--orange);
+    } 
+
+    > #underline4 {
+        left: 85.8rem;
+        background: var(--blue);
+    } 
+
+    > #underline5 {
+        left: 110.3rem;
+        background: var(--darkred);
+    } 
+
+    :nth-child(1):hover {
         > .image {
-            border: 1rem solid red;
+            border: 1rem solid var(--darkred);
+            transition: 0.8s;
+        }
+    }
+
+    :nth-child(2):hover {
+        > .image {
+            border: 1rem solid var(--green);
+            transition: 0.8s;
+        }
+    }
+
+    :nth-child(3)&:hover {
+        > .image {
+            border: 1rem solid var(--orange);
+            transition: 0.8s;
+        }
+    }
+
+    :nth-child(4)&:hover {
+        > .image {
+            border: 1rem solid var(--blue);
+            transition: 0.8s;
+        }
+    }
+    :nth-child(5)&:hover {
+        > .image {
+            border: 1rem solid var(--darkred);
             transition: 0.8s;
         }
     }
@@ -42,23 +95,19 @@ export const ImgBox = styled.div`
     margin-right: 2rem;
 `;
 
-export const Img = styled.img`
-
-`;
+export const Img = styled.img``;
 
 export const Title = styled.div`
     font-size: 2rem;
     font-weight: bold;
     margin-top: 2rem;
-    opacity: 0.9;
+    opacity: 0.8;
 `;
 
 export const Underline = styled.div`
     margin-top: 0.5rem;
-    background: red;
     width: 8rem;
     height: 0.2rem;
-    left: 14rem;
     position: absolute;
 `;
 
@@ -66,4 +115,5 @@ export const Description = styled.div`
     margin-top: 3rem;
     font-size: 1.5rem;
     line-height: 2.5rem;
+    opacity: 0.9;
 `;
