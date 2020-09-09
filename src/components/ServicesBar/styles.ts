@@ -9,10 +9,27 @@ export const Container = styled.div`
 
     #service1, #service5 {
         width: 30rem;
+
+        @media (max-width: 700px) {
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+        }
     }
 
     #service2, #service3, #service4 {
         width: 20rem;
+
+        @media (max-width: 700px) {
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+        }
+    }
+
+    @media (max-width: 700px) {
+        max-width: 700px;
+        flex-direction: column;
     }
 `;
 
@@ -25,26 +42,46 @@ export const Service = styled.div`
     > #underline1 {
         left: 13.5rem;
         background: var(--darkred);
+        
+        @media (max-width: 700px) {
+            left: 33.5rem;
+        }
     } 
 
     > #underline2 {
         left: 38rem;
         background: var(--green);
+
+        @media (max-width: 700px) {
+            left: 33.5rem;
+        }
     } 
 
     > #underline3 {
         left: 62rem;
         background: var(--orange);
+
+        @media (max-width: 700px) {
+            left: 33.5rem;
+        }
     } 
 
     > #underline4 {
         left: 85.8rem;
         background: var(--blue);
+
+        @media (max-width: 700px) {
+            left: 33.5rem;
+        }
     } 
 
     > #underline5 {
         left: 110.3rem;
         background: var(--darkred);
+
+        @media (max-width: 700px) {
+            left: 33.5rem;
+        }
     } 
 
     :nth-child(1):hover {
@@ -93,6 +130,12 @@ export const ImgBox = styled.div`
     justify-content: center;
     margin-left: 3rem;
     margin-right: 2rem;
+
+    @media (max-width: 700px) {
+        align-items: center;
+        justify-content: center;
+        margin-left: 38%;
+    }
 `;
 
 export const Img = styled.img``;

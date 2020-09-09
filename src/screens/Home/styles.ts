@@ -24,12 +24,24 @@ export const TopBar = styled.div`
     z-index: 2;
     position: sticky;
     top: 0;
+
+    @media (max-width: 700px) {
+        height: 144px;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        padding: 3rem;
+    }
 `;
 
 export const Left = styled.div`
     display: flex;
     flex-direction: row;
     align-items: center;
+
+    @media (max-width: 700px) {
+        margin-bottom: 1.5rem;
+    }
 `;
 
 export const Logo = styled.img`
@@ -91,6 +103,10 @@ export const Bar = styled.div`
     height: 0.2rem;
     width: 44rem;
     background: var(--gray);
+
+    @media (max-width: 700px) {
+        width: 28rem;
+    }
 `;
 
 export const Services = styled.div`

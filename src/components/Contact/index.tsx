@@ -12,20 +12,19 @@ const Contact: React.FC = () => {
               <Description>Envie sua sugestão, crítica ou elogio para seu município.</Description>
           </HeaderContainer>
 
-            <InputContainer>
-              <form>
-                <InputTop>
-                    <Input placeholder="Nome"/>
-                    <Input placeholder="Email"/>
-                    <Input placeholder="Assunto"/>
-                </InputTop>
-                <InputBottom>
-                    <Input placeholder="Mensagem" id="msginput"/>
-                </InputBottom>
-                <Button type="submit">ENVIAR</Button>
-              </form>
-            </InputContainer>
-
+          <InputContainer>
+            <form>
+              <InputTop>
+                  <Input placeholder="Nome"/>
+                  <Input placeholder="Email"/>
+                  <Input placeholder="Assunto"/>
+              </InputTop>
+              <InputBottom>
+                  <Input placeholder="Mensagem" id="msginput"/>
+              </InputBottom>
+              <Button type="submit">ENVIAR</Button>
+            </form>
+          </InputContainer>
       </Container>
   );
 }

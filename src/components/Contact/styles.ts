@@ -29,6 +29,16 @@ export const InputContainer = styled.div`
 export const InputTop = styled.div`
     display: flex;
     justify-content: space-between;
+
+    @media (max-width: 700px) {
+        flex-direction: column;
+    }
+
+    > input {
+        @media (max-width: 700px) {
+            width: calc(100% - 6rem);
+        }
+    }
 `;
 
 export const Input = styled.input`

@@ -29,6 +29,10 @@ export const Main = styled.div`
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+
+    @media (max-width: 700px) {
+        flex-direction: column;
+    }
 `;
 
 export const SolutionTitle = styled.div`
@@ -36,10 +40,19 @@ export const SolutionTitle = styled.div`
     font-size: 5rem;
     font-weight: 300;
     text-align: right;
+
+    @media (max-width: 700px) {
+        text-align: center;
+    }
 `;
 
 export const DescriptionContainer = styled.div`
     margin-left: 2rem;
+
+    @media (max-width: 700px) {
+        margin-top: 3rem;
+        margin-bottom: 3rem;
+    }
 `;
 
 export const Description = styled.div`
@@ -55,6 +68,11 @@ export const Description = styled.div`
 export const Solutions = styled.div`
     margin-top: 2rem;
     margin-left: 6rem;
+
+    @media (max-width: 700px) {
+        margin-left: 2rem;
+    }
+
 `;
 
 export const Solution = styled.div`
@@ -94,6 +112,11 @@ export const Number = styled.div`
     height: 7rem;
     font-size: 2rem;
     font-weight: bold;
+    
+    @media (max-width: 700px) {
+        height: 9rem;
+        padding-top: 2rem;
+    }
 `;
 
 export const Info = styled.div``;

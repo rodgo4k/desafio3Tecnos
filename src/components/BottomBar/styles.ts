@@ -10,6 +10,10 @@ export const Container = styled.div`
     display: flex;
     flex-direction: row;
     color: var(--primary);
+
+    @media (max-width: 700px) {
+        flex-direction: column;
+    }
 `;
 
 export const Label = styled.div`
@@ -29,6 +33,10 @@ export const ItemOne = styled.div`
 
     > #label1 {
         width: 5rem;
+
+        @media (max-width: 700px) {
+            display: none;
+        }
     }
 `;
 
@@ -51,6 +59,10 @@ export const ItemThree = styled.div`
 
     > #label3 {
         width: 8rem;
+
+        @media (max-width: 700px) {
+            display: none;
+        }
     }
 `;
 
@@ -66,6 +78,13 @@ export const ItemFour = styled.div`
     width: 25rem;
     background: var(--darkgray);
 
+    @media (max-width: 700px) {
+            width: 50rem;
+            margin-left: 0;
+            margin-right: 10rem;
+
+        }
+
     > #label4 {
         opacity: 0.4;
     }
@@ -73,6 +92,10 @@ export const ItemFour = styled.div`
     > #label5 {
         width: 20rem;
         cursor: pointer;
+
+        @media (max-width: 700px) {
+            display: none;
+        }
 
         > a {
             text-decoration: none;
