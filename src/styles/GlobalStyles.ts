@@ -39,5 +39,6 @@ export default createGlobalStyle`
         --gray: #D7D7D7;
         --darkgray: #333333;
         --darkergray: #474A51;
+        --lightergray: #A9A9A9;
     }
 `;

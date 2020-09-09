@@ -4,6 +4,8 @@ import LogoImg from '../../assets/logomarca.jpg';
 
 import ServicesBar from '../../components/ServicesBar';
 import Portal from '../../components/Portal';
+import Contact from '../../components/Contact';
+import BottomBar from '../../components/BottomBar';
 
 import { Container,
          TopBar, Left, Logo, Text, Tab,
@@ -69,6 +71,10 @@ const Home: React.FC = () => {
             </MainServices>
 
             <Portal />
+
+            <Contact />
+
+            <BottomBar />
 
           </Main>
       </Container>
