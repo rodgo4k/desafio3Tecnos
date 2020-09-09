@@ -30,12 +30,45 @@ const Portal: React.FC = () => {
 
             <Solutions>
                 <Solution>
-                    <Number>6</Number>
+                    <Number id="number1">6</Number>
                     <Info>
                         <Title>CIDADÃO</Title>
                         <SolutionDescription>
                             Em respeito a você oferecemos serviços de transparência para que você possa acompanhar o uso 
                             do dinheiro público.
+                        </SolutionDescription>
+                    </Info>
+                </Solution>
+
+                <Solution>
+                    <Number id="number2">5</Number>
+                    <Info>
+                        <Title>CONTRIBUINTE</Title>
+                        <SolutionDescription>
+                            Pensando em tornar sua vida mais fácil, oferecemos serviços para você acompanhar 
+                            IPTU, ISS, Certidão e muito mais.
+                        </SolutionDescription>
+                    </Info>
+                </Solution>
+
+                <Solution>
+                    <Number id="number3">4</Number>
+                    <Info>
+                        <Title>SERVIDOR</Title>
+                        <SolutionDescription>
+                            Com um clique, tenha acesso instantâneo a serviços exclusivos somente para o servidor,
+                            entre agora e confira.
+                        </SolutionDescription>
+                    </Info>
+                </Solution>
+
+                <Solution>
+                    <Number id="number4">2</Number>
+                    <Info>
+                        <Title>FORNECEDOR</Title>
+                        <SolutionDescription>
+                            Pensando em tornar sua vida mais fácil, 
+                            oferecemos serviços para você acompanhar seus pagamentos e extratos.
                         </SolutionDescription>
                     </Info>
                 </Solution>

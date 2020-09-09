@@ -61,12 +61,34 @@ export const Solution = styled.div`
     display: flex;
     flex-direction: row;
     color: var(--primary);
+    margin-bottom: 2rem;
+
+    > #number1 {
+        border-top-color: var(--red);
+        border-right-color: var(--red);
+        border-bottom-color: var(--red);
+    }
+
+    > #number2 {
+        border-top-color: var(--green);
+        border-right-color: var(--green);
+    }
+
+    > #number3 {
+        border-top-color: var(--blue);
+        border-right-color: var(--blue);
+        border-bottom-color: var(--blue);
+    }
+
+    > #number4 {
+        border-top-color: var(--orange);
+    }
 `;
 
 export const Number = styled.div`
     margin-left: 2rem;
     padding: 1rem;
-    border: 0.8rem solid var(--red);
+    border: 0.8rem solid var(--darkergray);
     border-radius: 50%;
     width: 14rem;
     height: 7rem;
