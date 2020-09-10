@@ -13,7 +13,7 @@ export const Container = styled.div`
         @media (max-width: 700px) {
         align-items: center;
         justify-content: center;
-        width: 100%;
+        width: 100vw;
         }
     }
 
@@ -38,6 +38,11 @@ export const Service = styled.div`
     justify-content: center;
     margin-left: 2rem;
     margin-right: 2rem;
+
+    > #title1, #title5 {
+        @media (max-width: 500px) {
+            margin-left: 3rem;;
+    }
 
     > #underline1 {
         left: 13.5rem;
@@ -117,6 +122,10 @@ export const Service = styled.div`
             transition: 0.8s;
         }
     }
+
+    @media (max-width: 700px) {
+        margin-bottom: 2rem;
+    }
 `;
 
 export const ImgBox = styled.div`
@@ -136,6 +145,10 @@ export const ImgBox = styled.div`
         justify-content: center;
         margin-left: 38%;
     }
+
+    @media (max-width: 700px) {
+        margin-left: 11rem;
+    }
 `;
 
 export const Img = styled.img``;
@@ -145,6 +158,10 @@ export const Title = styled.div`
     font-weight: bold;
     margin-top: 2rem;
     opacity: 0.8;
+
+    @media (max-width: 700px) {
+        text-align: center;;
+    }
 `;
 
 export const Underline = styled.div`

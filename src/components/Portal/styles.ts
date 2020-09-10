@@ -117,6 +117,11 @@ export const Number = styled.div`
         height: 9rem;
         padding-top: 2rem;
     }
+
+    @media (max-width: 500px) {
+        height: 6.7rem;
+        padding-top: 1rem;
+    }
 `;
 
 export const Info = styled.div``;

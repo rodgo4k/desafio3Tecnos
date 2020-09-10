@@ -38,6 +38,10 @@ export const ItemOne = styled.div`
             display: none;
         }
     }
+
+    @media (max-width: 700px) {
+        padding-left: 14rem;
+    }
 `;
 
 export const ItemTwo = styled.div`
@@ -79,11 +83,17 @@ export const ItemFour = styled.div`
     background: var(--darkgray);
 
     @media (max-width: 700px) {
-            width: 50rem;
-            margin-left: 0;
-            margin-right: 10rem;
+        width: 50rem;
+        margin-left: 0;
+        margin-right: 10rem;
+    }
 
-        }
+    @media (max-width: 500px) {
+        width: 30rem;
+        margin-left: 0;
+        margin-right: 0;
+        
+    }
 
     > #label4 {
         opacity: 0.4;

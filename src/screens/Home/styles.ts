@@ -10,6 +10,12 @@ export const Container = styled.div`
     flex-direction: column;
     align-items: center;
     justify-content: center;
+
+    @media (max-width: 500px) {
+        align-items: center;
+        justify-content: center;
+        width: 100vw;
+        }
 `;
 
 export const TopBar = styled.div`
@@ -32,6 +38,15 @@ export const TopBar = styled.div`
         justify-content: center;
         padding: 3rem;
     }
+    
+    @media (max-width: 500px) {
+        height: 124px;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        padding: 2rem;
+        width: 100vw;
+    }
 `;
 
 export const Left = styled.div`
@@ -53,6 +68,10 @@ export const Text = styled.div`
     font-size: 2rem;
     font-weight: bold;
     opacity: 0.9;
+
+    @media (max-width: 500px) {
+        font-size: 1.5rem;
+    }
 `;
 
 export const Tab = styled.div`
@@ -63,6 +82,10 @@ export const Tab = styled.div`
     &:hover {
         color: var(--red);
         cursor: pointer;
+    }
+    
+    @media (max-width: 500px) {
+        font-size: 1.2rem;
     }
 `;
 
@@ -76,12 +99,20 @@ export const Main = styled.div`
         font-size:5.5rem;
         margin-bottom: 0;
         opacity: 0.8;
+
+        @media (max-width: 700px) {
+            font-size: 4.5rem;
+        }
     }
 
     > :nth-child(2) {
         margin-top: 0;
         font-size: 1.7rem;
         font-weight: normal;
+
+        @media (max-width: 700px) {
+            font-size: 1.5rem;
+        }
     }
 `;
 
@@ -94,6 +125,10 @@ export const Title = styled.div`
     flex-direction: row;
     align-items: center;
     justify-content: center;
+
+    @media (max-width: 500px) {
+        flex-direction: column;
+    }
 `;
 
 export const BarContainer = styled.div``;
@@ -114,6 +149,11 @@ export const Services = styled.div`
     flex-direction: row;
     align-items: center;
     justify-content: center;
+
+    @media (max-width: 500px) {
+        flex-direction: column;
+        margin-top: 2rem;
+    }
 `;
 
 export const Service = styled.div`

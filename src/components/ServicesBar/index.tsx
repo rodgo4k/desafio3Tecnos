@@ -11,11 +11,11 @@ import { Container, Service, ImgBox, Img, Title, Underline, Description } from '
 const ServicesBar: React.FC = () => {
   return (
       <Container>
-          <Service id="service1">
+          <Service id="title1">
             <ImgBox className="image">
                 <Img src={ViewImg} />
             </ImgBox>
-            <Title>CIDADÃO</Title>
+            <Title id="title1">CIDADÃO</Title>
             <Underline id="underline1"/>
             <Description>
                 Aqui você acompanha os dados da lei complementar 131(Transparência Pública) 
@@ -27,7 +27,7 @@ const ServicesBar: React.FC = () => {
             <ImgBox className="image">
                 <Img src={PortfolioImg} />
             </ImgBox>
-            <Title>CONTRIBUINTE</Title>
+            <Title id="title2">CONTRIBUINTE</Title>
             <Underline id="underline2"/>
             <Description>
                 Sempre na palma da mão você visualiza e acompanha débitos de IPTU, Inscrições de 
@@ -39,7 +39,7 @@ const ServicesBar: React.FC = () => {
             <ImgBox className="image">
                 <Img src={ShopImg} />
             </ImgBox>
-            <Title>FORNECEDOR</Title>
+            <Title id="title3">FORNECEDOR</Title>
             <Underline id="underline3"/>
             <Description>
                 Pensando em tornar sua vida mais fácil, oferecemos serviços para você acompanhar 
@@ -51,7 +51,7 @@ const ServicesBar: React.FC = () => {
             <ImgBox className="image">
                 <Img src={UserImg} />
             </ImgBox>
-            <Title>SERVIDOR</Title>
+            <Title id="title4">SERVIDOR</Title>
             <Underline id="underline4"/>
             <Description>
                 Temos serviços prontos para te oferecer e agilizar o relacionamento com o departamento 
@@ -59,11 +59,11 @@ const ServicesBar: React.FC = () => {
             </Description>
           </Service>
 
-          <Service id="service5">
+          <Service>
             <ImgBox className="image">
                 <Img src={DealImg} />
             </ImgBox>
-            <Title>PARCEIRO</Title>
+            <Title id="title5">PARCEIRO</Title>
             <Underline id="underline5"/>
             <Description>
                 A chave do sucesso é a colaboração, juntos nós fazemos acontecer.
