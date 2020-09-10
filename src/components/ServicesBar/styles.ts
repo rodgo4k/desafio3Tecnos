@@ -39,11 +39,6 @@ export const Service = styled.div`
     margin-left: 2rem;
     margin-right: 2rem;
 
-    > #title1, #title5 {
-        @media (max-width: 500px) {
-            margin-left: 3rem;;
-    }
-
     > #underline1 {
         left: 13.5rem;
         background: var(--darkred);

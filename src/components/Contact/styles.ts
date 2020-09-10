@@ -52,6 +52,7 @@ export const Input = styled.input`
     width: 35rem;
     padding-left: 1.5rem;
     padding-right: 1.5rem;
+    color: var(--darkgray);
 
     &:focus {
         border: var(--blue);
